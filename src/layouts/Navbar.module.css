@@ -1,0 +1,27 @@
+.navbar_container {
+  height: 70px;
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.navbar_item {
+}
+.navbar_logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar_menu_wrapper {
+  display: flex;
+  padding-right: 10px;
+  justify-content: flex-end;
+  gap: 10px;
+
+  font-size: 16px;
+}
+.navbar_menu {
+}
